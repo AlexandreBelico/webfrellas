@@ -1,0 +1,103 @@
+.chatnames p { margin: 0px 0 !important;  }
+.sendmessagebtn { margin-top: 5px !important; }
+
+ul {margin: 0; padding: 0;}
+        li{list-style-type: none;}
+        .user-wrapper, .message-wrapper { border: 1px solid #dddddd;overflow-y: auto;}
+        .user-wrapper { height: 358px; }
+        .user { cursor: pointer; padding: 5px 3px; position: relative;  }
+        .user:hover{background: darkgray;}
+        .user:last-child {margin-bottom: 0;}
+        .pending {
+            position: absolute;
+            left: 5px;
+            top: 16px;
+            background: #b600ff;
+            margin: 0;
+            border-radius: 50%;
+            width:18px;
+            height: 18px;
+            line-height: 18px;
+            padding-left: 5px;
+            color: #ffffff;
+            font-size: 12px;
+        }
+
+        .media-left { margin: 0 10px;  }
+        .media-left img { width: 64px; border-radius: 64px;  }
+        .media-body p { margin: 6px 0; }
+        .messages-wrapper { padding: 10px; height: 346px; background: #fff;  }
+        .messages-wrapper .messages { max-height: 325px !important;  }
+        .messages .message {margin-bottom: 0px;padding-left: 37px !important;margin-right: 20px;}
+        .messages .message:last-child {margin-bottom: 0;}
+        .messagereceived, .messagesent{width: 52%;padding: 2px 10px;border-radius: 10px;}
+        .messagereceived { margin-left: 5px;margin-top: 7px;background: lightgray;}
+        .messagesent {    margin: 5px; background: darkgray;float: right;}
+        .message p {margin: 5px 0;}
+        .date {color: #777777;font-size: 12px;}
+        .useractive { background: darkgray;  }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 15px 0 0 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid #cccccc;
+        }
+
+        input[type=text]:focus {border:1px solid #aaaaaa;}
+
+        /* for Image uplaod Icons */
+        #file-input { display: none; }
+        .image-upload {padding: 10px 10px 0px 20px; cursor: pointer; width: 50px;font-size: 20px;}
+        .paperclipIcon { cursor: pointer; padding-top: 19px;  }
+        .selectFile { height: 100px !important;  }
+        .uploadmessages { margin-top: 20px !important;  }
+        .attached { padding: 5px; color: darkblue; font-size: 20px; }
+        .downloadIcon { color: darkblue; cursor: pointer;  }
+        .textmessage { word-wrap: break-word; line-height: 19.5px; } 
+
+
+  .candidateinfo .userPic img { height: 100px; }
+  .leftBarLinks { padding-right: 40px;  } 
+  .listpgWraper { padding: 20px 0px !important;  }    
+  .inputgrouptextBox { width: 94% !important; } 
+
+  /*************** chat css******************/
+  /***************candidates chat css******************/
+.can_img
+{
+    height: 35px;
+    float: right;
+    width: 35px;
+    border-radius: 55%;
+}
+.can_name
+{
+    float: right;margin-right:11px;
+}
+.can_name_merge
+{
+    margin-bottom: -18px;padding-bottom: -11px;padding-left: 37px;
+}
+.default_image_css
+{
+    height: 30px;margin-top: -3px;padding-bottom: -16px;float: left;width: 30px;
+}
+
+.emp_name
+{
+    margin-bottom: -20px;padding-left: 43px;
+}
+.emp_img
+{
+    height: 35px;float: right;width: 35px;border-radius: 55%;"><div style="float: right;margin-right:11px;"
+}
+
+.emp_default_img
+{
+    height: 30px;margin-top: -3px;padding-bottom: -16px;float: left;width: 30px;border-radius: 55%
+}

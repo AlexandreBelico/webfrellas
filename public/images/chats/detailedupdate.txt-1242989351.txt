@@ -1,0 +1,79 @@
+Notes : In video links given te Incongnito window is Employer side and other one is candidate side.
+
+For Step 1: A  : Employer Side : 
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/posted-jobs
+
+On above page there is a button as "MILESTONES". By clicking on it will display the existing milestones with it's status and there is a button for "Add Milestone" on top side.
+Once candidate submit milestone It will display as submitted on employer side and than employer can approve it.
+
+For Step 1: A  : Candidate Side : 
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/my-job-applications
+
+On above link all jobs listing is there with status for candidate is hired by employer or not. If candidate is hired it will display as "hired" otherwise display as pending.
+
+By clicking on job name it will display the milestone details with other details. 
+
+Video for Step 1: A
+https://www.screencast.com/t/d3ZvLkbpl1v9
+
+
+For Step 1: B  : Candidate Side : 
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/get-timesheet-details
+
+On above link jobs listing is there with "VIEW TIMESHEETS" and "Add timesheet" button. By clicking on "Add timesheet" it will open a form for add timesheet with client and job details.
+By clicking on "VIEW TIMESHEETS" it will list the existing timesheets with it's status as Employer approved or rejected it.
+
+For Step 1: B  : Employer Side :
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/posted-jobs
+
+On above link there is a button for "TIMESHEETS". By clicking on that it will display the timesheets added by candidate for that particular job. By default status is pending By clicking on pending you can approve or reject it and it will reflect on candidate side.
+
+Video for Step 1: B
+https://www.screencast.com/t/o148mD6G4Cb1
+
+
+For Step 1: C  : Employer Side :
+AS described above steps on milestone listing page there is a status for each milestone. When candidate mark as complete the milestone on employer side the status will be displayed as "Submitted". By clicking on it will ask for approve it or not.
+
+For Step 1: C  : Candidate Side :
+Candidate can start work, Stop work, and mark as completed work than employer can approve it. 
+When candidate change status system will send mail to respected employer and when employer will change the status it will send mail to respected candidate.
+
+Video for Step 1: C
+https://www.screencast.com/t/0s3CRYrQCQs
+
+For Step 1: D :
+I have prepared a cronjob and setup on server which will send emails to candidate and it's client with the timesheet details if is there any new timesheet added by candidate in last week.
+It will send emails on each monday at 9:00 AM.
+
+
+For Step 1: E  : Candidate Side :
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/jobs-development-status-details
+
+On above link jobs will display with it's status for pending, pasused or In progress based on milestones status. By clicking on "VIEW DETAILS" it will redirect to milestones detailed page.
+
+For Step 1: E  : Employer Side :
+http://ec2-18-225-6-3.us-east-2.compute.amazonaws.com/jobs-development-status
+
+On above link jobs will display same as displaying on candidate side with it' status and with "VIEW DETAILS" button.
+
+
+Video for Step 1: E
+https://www.screencast.com/t/5QZdIHGOoZ
+
+AS in above video when all milestone were completed of a job it will show development status for that job as "Completed". By default it will be open. If any of milestone is in progress than it will show as "In progress" and "paused" if started work on any of milestone & candidate stopped work on it.
+
+
+Files new added by me(as a hetal) on 5th March :
+=============================================
+1. Views/Company/singlejobtimesheet.blade.php
+2. views/emails/weeklytimesheet.blade.php
+2. views/emails/milestone_change_status.blade.php
+3. views/job/create_milestones.blade.php
+4. views/job/milestones_list.blade.php
+5. views/job/singlejobtimesheet.blade.php
+6. views/job/add_timesheet.blade.php
+7. views/job/developmentstatus.blade.php
+7. views/job/my_timesheet.blade.php
+7. views/layouts/app.blade.php
+8. app/Milestones.php

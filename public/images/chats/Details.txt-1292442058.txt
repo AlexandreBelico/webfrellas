@@ -1,0 +1,19 @@
+On click advance : 
+==================
+https://clinicaltrials.gov/ct2/search/advanced?cond=&term=&cntry=&state=&city=&dist=
+
+
+https://developer.athenahealth.com/docs
+User : development0261@gmail.com
+pass : logix@123$
+
+Case Number :  CAS-505283-N3V3T1
+
+
+For the new API project
+
+I want to create an interface with AthenaNet, a provider of Electronic Health Record ,EHR, so that physicians using this EHR can safely share information/medical records with a Principal Investigator conducting a clinical trial. Exchange of data will be in real time. By building an interface between Clinicalmatch and AthenaNet , clinical trials registered on our website can be viewed by a physician seeking a clinical trial for a patient, automatically prescreen a patient using predefined inclusion/exclusion criteria, and safely transfer medical records to the principal investigator.
+
+https://www.athenahealth.com/developer-portal
+
+There is already a sandbox for a developer to work on this interface, there is also documentation

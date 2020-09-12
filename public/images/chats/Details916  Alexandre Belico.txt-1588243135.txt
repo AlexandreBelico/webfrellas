@@ -1,0 +1,57 @@
+Access key ID AKIA3T2ET4GLVWWMBZDJ
+Secret access key 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
+Console login link https://798470955415.signin.aws.amazon.com/console
+AWS account Id: 798470955415
+IAM username: HETAL
+Password: logix@123$
+
+VDk#9-LV(20R
+
+SFTP
+Host: ec2-18-225-6-3.us-east-2.compute.amazonaws.com
+Username: ubuntu
+
+[2/19/2020 5:41:32 PM] Alexandre Belico: User name Hetal
+Old Password i'@-]Q^VqA2!
+Access key ID AKIA3T2ET4GLVNW4CBBH
+Secret access key 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
+Console login link https://798470955415.signin.aws.amazon.com/console
+Username: Hetal
+New Password: logix@123$logix
+
+
+Task Details: https://docs.google.com/document/d/1WAbbUx_wiLF_ztA5ZUNvGHvzEE_ED-B-fl1Cvkx9R1k/edit
+
+Details By SL from 20th Feb 2020 : 
+==================================
+
+Project directory of SFTP : /var/www/html
+
+Candidate : 
+==============
+sl@logixbuilt.com
+Sl@12345
+
+sj@logixbuilt.com
+Sj@12345
+
+Employer : 
+==============
+cp@logixbuilt.com
+Cp@12345
+
+
+Creditcard number : 374458597729233
+
+Chat using pusher : 
+=============================
+https://www.youtube.com/watch?v=cPGhs94Rj5E
+
+New Instance 16 March
+=====================
+http://ec2-18-221-49-63.us-east-2.compute.amazonaws.com/
+
+
+Pusher login : 
+https://dashboard.pusher.com/
+Use login with google (development0261@gmail.com)
